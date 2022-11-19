@@ -1,0 +1,5 @@
+NEVER mutate directly the Redux state for example: state.counter++
+
+Also, Redux overrides, not update the data, therefore you must return all the elements of the state back, otherwise they will be undefined
+
+Have a look at Section 18 Summary for clarification on React Redux Toolkit and how to split the slices into their own files
